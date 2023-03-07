@@ -48,6 +48,14 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
+	
+	<distributionManagement>
+          <repository>
+           <id>my-bm</id>
+          <name>my-bm</name>
+          <url>https://my-202030150981.d.codeartifact.ap-northeast-1.amazonaws.com/maven/bm/</url>
+  </repository>
+</distributionManagement>
 
 	
 </project>
